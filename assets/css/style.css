@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 32px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 42px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 48px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+.bg-dark2 {
+  background-color: #0d0d2b;
+}
+
+.bg-dark3 {
+  background-color: #252540;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.text-gray {
+  color: #e0e0e0;
+}
+
+.mt-n3 {
+  margin-top: -90px;
+}
+
+.bg-purple {
+  background-color: #2b076e;
+}
+
+.subscribe {
+  background: rgb(43, 7, 110);
+  background: linear-gradient(
+    180deg,
+    rgba(43, 7, 110, 1) 0%,
+    rgba(13, 13, 43, 1) 100%
+  );
+}
+
+.subscribe input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(209, 209, 209);
+  opacity: 1; /* Firefox */
+}
